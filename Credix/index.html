@@ -19,7 +19,7 @@
                 <div class="form-group">
                     <label  class="control-label col-sm-2"  for="txtTarjeta">NÚMERO TARJETA</label>
                     <div class="col-sm-10">   
-                        <input type="text" class="form-control" id="txtTarjeta">
+                        <input type="text" class="form-control" id="txtTarjeta" required>
                     </div>
                 </div>
                 <!-- Fecha de vencimiento -->
@@ -27,7 +27,7 @@
                     <div class="form-inline">
                         <label class="control-label col-sm-2">VENCIMIENTO</label>
                         <div class="col-sm-4">
-                            <select name="cboFechaVencimientoMes" id="cboFechaVencimientoMes">
+                            <select name="cboFechaVencimientoMes" id="cboFechaVencimientoMes" required>
                                 <option value="1" selected>1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -41,7 +41,7 @@
                                 <option value="11">11</option>
                                 <option value="12">12</option>
                             </select>
-                            <select name="cboFechaVencimientoAnno" id="cboFechaVencimientoAnno">
+                            <select name="cboFechaVencimientoAnno" id="cboFechaVencimientoAnno" required>
                                 <option value="2016" selected>2016</option>
                                 <option value="2017">2017</option>
                                 <option value="2018">2018</option>
@@ -62,7 +62,7 @@
                         </div>
                         <label class="control-label col-sm-1" for="txtCvv">CVV</label>
                         <div class="col-sm-4">
-                            <input type="text" class="form-control" id="txtCvv">
+                            <input type="text" class="form-control" id="txtCvv" required>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="cboMoneda">MONEDA</label>
                     <div class="col-sm-10">
-                        <select name="cboMoneda" id="cboMoneda">
+                        <select name="cboMoneda" id="cboMoneda" required>
                             <option value="COLONES">COLONES</option>
                             <option value="DOLARES">DOLARES</option>
                             <option value="EUROS">EUROS</option>
@@ -81,14 +81,14 @@
                  <div class="form-group">
                     <label class="control-label col-sm-2" for="txtMonto">MONTO</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="txtMonto">
+                        <input type="text" class="form-control" id="txtMonto" required>
                     </div>
                 </div>
                 <!-- Se agrega el combo de cuotas -->
                  <div class="form-group">
                     <label class="control-label col-sm-2" for="cboCuotas">CUOTAS</label>
                     <div class="col-sm-10">
-                        <select name="cboCuotas" id="cboCuotas">
+                        <select name="cboCuotas" id="cboCuotas" required>
                             <option value="36">36</option>
                         </select>
                     </div>
@@ -97,7 +97,7 @@
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="txtEmail">EMAIL</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="txtEmail">
+                        <input type="email" class="form-control" id="txtEmail" required>
                     </div>
                 </div>
                 <!-- Se agrega el telefono -->
@@ -105,7 +105,7 @@
                     <div class="form-inline">
                         <label class="control-label col-sm-2" for="txtTel">TELÉFONO</label>
                         <div class="col-sm-4">
-                            <input type="tel" class="form-control" id="txtTel">
+                            <input type="tel" class="form-control" id="txtTel" required>
                         </div>
                         <div class="col-sm-6">
                             <button type="submit" class="btn btn-default">Procesar</button>

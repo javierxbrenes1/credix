@@ -1,40 +1,15 @@
-#Encabezado{
-    background-color: black;
-}
-
-#Formulario
-{
-    margin-top: 5%;
-    
-}
-.img-responsive{
-    margin: 0 auto;
-    padding-top: 20px;
-}
-
-#Contenedor_Form
-{
-    margin: 0 10% 0 20%;
-}
-
-#txtTarjeta, #txtMonto, #txtEmail{
-    
-    width: 70%;
-    height: 35px;
-}
-
-#txtCvv{
-    width: 48%;
-}
-
-select{
-    
-     height: 35px;
-}
-
+#Encabezado{ background-color: black;}
+#Formulario{margin-top: 5%;}
+.img-responsive{margin: 0 auto;padding-top: 20px;}
+#Contenedor_Form{margin: 0 10% 0 20%;}
+#txtTarjeta, #txtMonto, #txtEmail{width: 70%;height: 35px;}
+#txtCvv{ width: 48%;}
+select{font-size: 20px;height: 35px;}
+input[type=text], input[type=email],input[type=phone]  {font-size: 20px;}
 #cboFechaVencimientoMes{width: 70px;}
 #cboFechaVencimientoAnno{width: 100px;}
 #cboMoneda{width: 250px;}
 #cboCuotas{width: 65px;}
 #txtTel{width: 100%;}
 .btn{width: 48%;}
+label{font-family:  Arial, Helvetica, sans-serif;font-size: 11px;margin-top: 4.5px;}
