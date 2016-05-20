@@ -1,0 +1,123 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="Container">
+        <header id="Encabezado">
+            
+                <img class="img-responsive" src="assets/img/logo.png" height="300" width="300" alt="logo">
+            
+        </header>
+        <section id="Formulario">   
+            <div id="Contenedor_Form">
+            <form class="form-horizontal" role="form">
+                <!-- numero de tarjeta -->
+                <div class="form-group">
+                    <label  class="control-label col-sm-2"  for="txtTarjeta">NÚMERO TARJETA</label>
+                    <div class="col-sm-10">   
+                        <input type="text" class="form-control" id="txtTarjeta">
+                    </div>
+                </div>
+                <!-- Fecha de vencimiento -->
+                <div class="form-group">
+                    <div class="form-inline">
+                        <label class="control-label col-sm-2">VENCIMIENTO</label>
+                        <div class="col-sm-4">
+                            <select name="cboFechaVencimientoMes" id="cboFechaVencimientoMes">
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select name="cboFechaVencimientoAnno" id="cboFechaVencimientoAnno">
+                                <option value="2016" selected>2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                            </select>
+                        </div>
+                        <label class="control-label col-sm-1" for="txtCvv">CVV</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="txtCvv">
+                        </div>
+                    </div>
+                </div>
+                <!-- Se agrega la moneda -->
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="cboMoneda">MONEDA</label>
+                    <div class="col-sm-10">
+                        <select name="cboMoneda" id="cboMoneda">
+                            <option value="COLONES">COLONES</option>
+                            <option value="DOLARES">DOLARES</option>
+                            <option value="EUROS">EUROS</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Se agrega monto-->
+                 <div class="form-group">
+                    <label class="control-label col-sm-2" for="txtMonto">MONTO</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="txtMonto">
+                    </div>
+                </div>
+                <!-- Se agrega el combo de cuotas -->
+                 <div class="form-group">
+                    <label class="control-label col-sm-2" for="cboCuotas">CUOTAS</label>
+                    <div class="col-sm-10">
+                        <select name="cboCuotas" id="cboCuotas">
+                            <option value="36">36</option>
+                        </select>
+                    </div>
+                </div>
+                 <!-- se agrega el email -->
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="txtEmail">EMAIL</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="txtEmail">
+                    </div>
+                </div>
+                <!-- Se agrega el telefono -->
+                <div class="form-group">
+                    <div class="form-inline">
+                        <label class="control-label col-sm-2" for="txtTel">TELÉFONO</label>
+                        <div class="col-sm-4">
+                            <input type="tel" class="form-control" id="txtTel">
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="submit" class="btn btn-default">Procesar</button>
+                        </div>
+                        <!-- Boton de submit-->
+                    </div>
+                </div>
+            </form>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/jquery-2.2.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
